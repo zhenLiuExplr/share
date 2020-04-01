@@ -1,0 +1,15 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=LowQual,Description="Confidence in this variant being real is below calling threshold.">
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=INS,Description="Insertion of novel sequence">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=LENGUESS,Number=.,Type=Integer,Description="Best guess of the indel length">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AF,Number=1,Type=Float,Description="Estimated allele frequency in the range (0,1)">
+##contig=<ID=BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125,length=29903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	test
+BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125	21634	.	A	AC	180	.	.	GT:GQ:DP:AF	1/1:180:441:0.0227
+BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125	21707	.	C	T	1116	.	.	GT:GQ:DP:AF	1/1:1116:443:0.9684
