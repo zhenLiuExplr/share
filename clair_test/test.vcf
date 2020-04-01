@@ -9,7 +9,7 @@
 ##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
 ##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
 ##FORMAT=<ID=AF,Number=1,Type=Float,Description="Estimated allele frequency in the range (0,1)">
-##contig=<ID=BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125,length=29903>
+##contig=<ID=chr.test,length=25423>
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	test
-BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125	21634	.	A	AC	180	.	.	GT:GQ:DP:AF	1/1:180:441:0.0227
-BetaCoV/Wuhan-Hu-1/2019|EPI_ISL_402125	21707	.	C	T	1116	.	.	GT:GQ:DP:AF	1/1:1116:443:0.9684
+chr.test	17634	.	A	AC	180	.	.	GT:GQ:DP:AF	1/1:180:441:0.0227
+chr.test	17707	.	C	T	1116	.	.	GT:GQ:DP:AF	1/1:1116:443:0.9684
